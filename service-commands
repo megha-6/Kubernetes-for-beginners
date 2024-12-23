@@ -1,0 +1,16 @@
+
+1. List all services.
+kubectl get svc
+
+2. Describe a specific service.
+kubectl describe svc
+
+3. Fetches and displays a list of Kubernetes services (abbreviated as svc), -o wide adds extra information to the output.
+   Like information related to ClusterIP, ExternalP, Ports and other.
+kubectl get svc -o wide
+
+4. Outputs the service details in YAML format.
+kubectl get svc -o yaml
+
+5. Adds a column to the output that displays the labels assigned to each service.
+kubectl get svc --show-labels
