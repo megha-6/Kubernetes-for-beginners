@@ -1,0 +1,9 @@
+
+
+kubectl get deploy
+
+kubectl describe deploy
+
+kubectl get deploy -o wide
+  
+kubectl get deploy -o yaml
